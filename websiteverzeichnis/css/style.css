@@ -1,0 +1,38 @@
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: #f8f9fa;
+}
+
+.card {
+    transition: transform 0.2s;
+    margin-bottom: 1rem;
+}
+
+.card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+}
+
+.bookmark-icon {
+    width: 16px;
+    height: 16px;
+    margin-right: 10px;
+}
+
+.category-badge {
+    margin-right: 5px;
+    font-size: 0.75rem;
+}
+
+.folder-path {
+    font-size: 0.8rem;
+    color: #6c757d;
+}
+
+#folder-filters {
+    flex-wrap: wrap;
+}
+
+#folder-filters .btn {
+    margin: 3px;
+}
